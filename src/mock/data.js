@@ -5,7 +5,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Sefa Baah - Acheamphour', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: '', //  e.g: Welcome to my website
+  description: 'About me', //  e.g: Welcome to my website
 };
 
 // HERO DATA
