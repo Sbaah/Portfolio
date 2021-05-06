@@ -45,8 +45,8 @@ export const projectsData = [
     img: 'smart-brain.png',
     title: 'SmartBrain or Face Recognition',
     info:
-      "This application allows the user to detect a face by just inputting an image URL, which will determine if the mage has a face. If if a face is found a box will be displayed over the face.This is done by sending the information inputted information to  Clarifai for confirmation its response is used to display the face detection box. It also the configuration of Postgres where it registers a user, along with hashing the user's password. ",
-    info2: '',
+      "This application allows the user to detect a face by just inputting an image URL, which will determine if the mage has a face. If if a face is found a box will be displayed over the face. This is done by sending the information inputted to the Back-end, which is created with node.js and incorporates CRUD operations except for delete. ",
+    info2: 'The back-end also includes the process for Clarifai to confirm if what on the website is indeed a face and then the Clarifai will respond. The response data received will be sent to the front end, which is then used to display the detected face with a box overlaying it. Configuration of Postgres is used to registers a user, along with hashing the user\'s password, all this is done in the back-end.',
     url: '  https://sbaah.github.io/SmartBrain/',
     repo: 'https://github.com/Sbaah/SmartBrain', // if no repo, the button will not show up
   },
