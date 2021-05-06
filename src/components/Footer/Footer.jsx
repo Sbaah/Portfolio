@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
@@ -40,10 +41,19 @@ const Footer = () => {
         <p className="footer__text">
           © {new Date().getFullYear()} - Template developed by{' '}
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
+            Jacobo Martínez and modified by Sefa Baah - Acheamphour
           </a>
+          <div>
+            Icons made by{' '}
+            <a href="https://www.freepik.com" title="Freepik">
+              Freepik
+            </a>{' '}
+            from{' '}
+            <a href="https://www.flaticon.com/" title="Flaticon">
+              www.flaticon.com
+            </a>
+          </div>
         </p>
-
         {isEnabled && <GithubButtons />}
       </Container>
     </footer>
