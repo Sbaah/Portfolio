@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
@@ -28,7 +29,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, repo, repo2, img, id } = project;
 
             return (
               <Row key={id}>
@@ -57,7 +58,6 @@ const Projects = () => {
                       >
                         See Live
                       </a>
-
                       {repo && (
                         <a
                           target="_blank"
@@ -66,6 +66,17 @@ const Projects = () => {
                           href={repo}
                         >
                           Source Code
+                        </a>
+                      )}
+                      &nbsp;&nbsp;
+                      {repo2 && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn text-color-main"
+                          href={repo2}
+                        >
+                          Source Code API
                         </a>
                       )}
                     </div>

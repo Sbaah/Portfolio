@@ -28,7 +28,6 @@ export const aboutData = {
 };
 
 // PROJECTS DATA
-// PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
@@ -45,10 +44,22 @@ export const projectsData = [
     img: 'smart-brain.png',
     title: 'SmartBrain or Face Recognition',
     info:
-      "This application allows the user to detect a face by just inputting an image URL, which will determine if the mage has a face. If if a face is found a box will be displayed over the face. This is done by sending the information inputted to the Back-end, which is created with node.js and incorporates CRUD operations except for delete. ",
-    info2: 'The back-end also includes the process for Clarifai to confirm if what on the website is indeed a face and then the Clarifai will respond. The response data received will be sent to the front end, which is then used to display the detected face with a box overlaying it. Configuration of Postgres is used to registers a user, along with hashing the user\'s password, all this is done in the back-end.',
+      'This application allows the user to detect a face by just inputting an image URL, which will determine if the mage has a face. If if a face is found a box will be displayed over the face. This is done by sending the information inputted to the Back-end, which is created with node.js and incorporates CRUD operations except for delete. ',
+    info2:
+      "The back-end also includes the process for Clarifai to confirm if what on the website is indeed a face and then the Clarifai will respond. The response data received will be sent to the front end, which is then used to display the detected face with a box overlaying it. Configuration of Postgres is used to registers a user, along with hashing the user's password, all this is done in the back-end.",
     url: '  https://sbaah.github.io/SmartBrain/',
     repo: 'https://github.com/Sbaah/SmartBrain', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'online-dictionary.png',
+    title: 'Online Dictionary For Web/Software Development ',
+    info:
+      'An angular application that uses both nodes to create a server as the back-end and Angular as the front-end to display the information being retrieved from the database (Mongo DB), as an online software development dictionary. This application will have English terms and their definitions that are used in the everyday software development field but would allow user/s to add translations for the specific term. All this is stored in a mongo DB and uses the node server as the in-between the front-end and the mongo DB.',
+    info2: '',
+    url: 'https://online-software-dev-dictionary.web.app/',
+    repo: 'https://github.com/Sbaah/onlineDictinary', // if no repo, the button will not show up
+    repo2: 'https://github.com/Sbaah/OnlineDictionary-API',
   },
   // {
   //   id: nanoid(),
